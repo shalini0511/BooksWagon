@@ -1,0 +1,67 @@
+{
+  "uuid": "c0c3c961-77ce-42cb-98c7-16f582356f29-tr-0-1001",
+  "historyId": "BooksWagon.Tests.AddressPageTest",
+  "fullName": "BooksWagon.Tests.AddressPageTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TKJCNNQ"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "AddressPageTest"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "AddressPageTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "BooksWagon.CustomException : Webdriver unable to locate element",
+    "trace": "   at BooksWagon.DoActions.DoAction.Address() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\DoActions\\DoAction.cs:line 173\r\n   at BooksWagon.Tests.AddressPageTest() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\BooksWagonTests.cs:line 53"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "AddressPageTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "BooksWagon.CustomException : Webdriver unable to locate element",
+        "trace": "   at BooksWagon.DoActions.DoAction.Address() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\DoActions\\DoAction.cs:line 173\r\n   at BooksWagon.Tests.AddressPageTest() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\BooksWagonTests.cs:line 53"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6b8bd917bca04d92b503bb299af3402b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633536065383,
+      "stop": 1633536116507
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633536065382,
+  "stop": 1633536116512
+}

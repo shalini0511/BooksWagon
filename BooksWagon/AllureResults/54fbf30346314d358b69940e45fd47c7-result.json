@@ -1,0 +1,68 @@
+{
+  "uuid": "56c1ec89-01b8-4068-ab8d-c408c1b150ef-tr-0-1001",
+  "historyId": "BooksWagon.Tests.SignUpTest",
+  "fullName": "BooksWagon.Tests.SignUpTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TKJCNNQ"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "SignUpTest"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "SignUpTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://localhost:63788/session/bf6aebe677f94e5970d6c27faaa620e0/url timed out after 60 seconds.\r\n  ----> System.Net.WebException : The operation has timed out.",
+    "trace": "   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)\r\n   at BooksWagon.BaseClass.BaseClass.SetUp() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\BaseClass\\BaseClass.cs:line 18\r\n--WebException\r\n   at System.Net.HttpWebRequest.GetResponse()\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)"
+  },
+  "stage": "finished",
+  "description": "\nSetUp SetUp method failed\n",
+  "steps": [
+    {
+      "name": "SignUpTest skipped because of SetUp failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://localhost:63788/session/bf6aebe677f94e5970d6c27faaa620e0/url timed out after 60 seconds.\r\n  ----> System.Net.WebException : The operation has timed out.",
+        "trace": "   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)\r\n   at BooksWagon.BaseClass.BaseClass.SetUp() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\BaseClass\\BaseClass.cs:line 18\r\n--WebException\r\n   at System.Net.HttpWebRequest.GetResponse()\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "89e4d538796f45e19cae620190297369-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633451665540,
+      "stop": 1633451777432
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633451665538,
+  "stop": 1633451777453
+}

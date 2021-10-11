@@ -1,0 +1,4 @@
+2021-10-07 12:27:19,200 INFO Entering Setup
+2021-10-07 12:27:38,753 INFO Login Successfull
+2021-10-07 12:28:07,456 INFO Search is done
+ Meassage: My Wishlist

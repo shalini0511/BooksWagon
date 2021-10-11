@@ -1,0 +1,67 @@
+{
+  "uuid": "7f2ba6df-6817-48f5-8168-be3bf647259d-tr-0-1003",
+  "historyId": "BooksWagon.Tests.SearchPageTest",
+  "fullName": "BooksWagon.Tests.SearchPageTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TKJCNNQ"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "SearchPageTest"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "SearchPageTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "BooksWagon.CustomException : Webdriver unable to locate element",
+    "trace": "   at BooksWagon.DoActions.DoAction.Search() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\DoActions\\DoAction.cs:line 81\r\n   at BooksWagon.Tests.SearchPageTest() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\BooksWagonTests.cs:line 33"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "SearchPageTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "BooksWagon.CustomException : Webdriver unable to locate element",
+        "trace": "   at BooksWagon.DoActions.DoAction.Search() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\DoActions\\DoAction.cs:line 81\r\n   at BooksWagon.Tests.SearchPageTest() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\BooksWagonTests.cs:line 33"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e3b16109423f4a0b957d9c9dd6ac2293-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633451850058,
+      "stop": 1633451932270
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633451850058,
+  "stop": 1633451932270
+}

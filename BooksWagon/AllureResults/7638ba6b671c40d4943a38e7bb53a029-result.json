@@ -1,0 +1,64 @@
+{
+  "uuid": "56110a32-2d0b-415c-b94c-81120ea649a8-tr-0-1001",
+  "historyId": "BooksWagon.Tests.SignUpTest",
+  "fullName": "BooksWagon.Tests.SignUpTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TKJCNNQ"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "SignUpTest"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "SignUpTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "SignUpTest"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "SignUpTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "080238753f204e7c939fde59dfdfe98f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633437786448,
+      "stop": 1633437810509
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633437786447,
+  "stop": 1633437810514
+}

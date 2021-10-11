@@ -1,0 +1,64 @@
+{
+  "uuid": "54082eb2-5b8c-4e54-a589-59fd17917dc3-tr-0-1001",
+  "historyId": "BooksWagon.Tests.AddressPageTest",
+  "fullName": "BooksWagon.Tests.AddressPageTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TKJCNNQ"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "AddressPageTest"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "AddressPageTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "AddressPageTest"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "AddressPageTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "22670b2e204e4cc2a4fe3f2e3738c272-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633584505874,
+      "stop": 1633584584017
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633584505873,
+  "stop": 1633584584025
+}

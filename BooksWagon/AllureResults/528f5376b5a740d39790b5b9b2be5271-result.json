@@ -1,0 +1,64 @@
+{
+  "uuid": "e36eaee1-0c87-4bca-b73c-bbedd5ab70b5-tr-0-1001",
+  "historyId": "BooksWagon.Tests.CartPageTest",
+  "fullName": "BooksWagon.Tests.CartPageTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TKJCNNQ"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CartPageTest"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "CartPageTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CartPageTest"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CartPageTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0ddb5ebbd664417dafda15b13beb1597-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633498757450,
+      "stop": 1633498819447
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633498757449,
+  "stop": 1633498819451
+}

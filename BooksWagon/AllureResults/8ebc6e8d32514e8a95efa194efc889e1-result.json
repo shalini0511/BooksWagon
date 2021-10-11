@@ -1,0 +1,67 @@
+{
+  "uuid": "967cf439-e467-4f2d-a544-a580fa944a64-tr-0-1001",
+  "historyId": "BooksWagon.Tests.PlaceOrderTest",
+  "fullName": "BooksWagon.Tests.PlaceOrderTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TKJCNNQ"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "PlaceOrderTest"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "PlaceOrderTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: BookCart_lvCart_imgPayment",
+    "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(MethodInfo targetMethod, Object[] args)\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Reflection.DispatchProxyGenerator.Invoke(Object[] args)\r\n   at generatedProxy_1.Click()\r\n   at BooksWagon.DoActions.DoAction.PlaceOrder() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\DoActions\\DoAction.cs:line 104\r\n   at BooksWagon.Tests.PlaceOrderTest() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\BooksWagonTests.cs:line 43"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "PlaceOrderTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: BookCart_lvCart_imgPayment",
+        "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(MethodInfo targetMethod, Object[] args)\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Reflection.DispatchProxyGenerator.Invoke(Object[] args)\r\n   at generatedProxy_1.Click()\r\n   at BooksWagon.DoActions.DoAction.PlaceOrder() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\DoActions\\DoAction.cs:line 104\r\n   at BooksWagon.Tests.PlaceOrderTest() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\BooksWagonTests.cs:line 43"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "211675570a4e4bfbbf0895dd914d641e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633499552662,
+      "stop": 1633499601414
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633499552661,
+  "stop": 1633499601421
+}

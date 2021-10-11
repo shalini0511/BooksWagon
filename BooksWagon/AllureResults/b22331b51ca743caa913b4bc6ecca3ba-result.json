@@ -1,0 +1,67 @@
+{
+  "uuid": "26144ff9-3a6c-4a5d-a3e1-e1646a351a86-tr-0-1001",
+  "historyId": "BooksWagon.Tests.CartPageTest",
+  "fullName": "BooksWagon.Tests.CartPageTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TKJCNNQ"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CartPageTest"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "CartPageTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.ClassName[Contains]: btn-black",
+    "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(MethodInfo targetMethod, Object[] args)\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Reflection.DispatchProxyGenerator.Invoke(Object[] args)\r\n   at generatedProxy_1.Click()\r\n   at BooksWagon.DoActions.DoAction.Search() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\DoActions\\DoAction.cs:line 74\r\n   at BooksWagon.DoActions.DoAction.AddToCart() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\DoActions\\DoAction.cs:line 83\r\n   at BooksWagon.Tests.CartPageTest() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\BooksWagonTests.cs:line 38"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CartPageTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.ClassName[Contains]: btn-black",
+        "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(MethodInfo targetMethod, Object[] args)\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Reflection.DispatchProxyGenerator.Invoke(Object[] args)\r\n   at generatedProxy_1.Click()\r\n   at BooksWagon.DoActions.DoAction.Search() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\DoActions\\DoAction.cs:line 74\r\n   at BooksWagon.DoActions.DoAction.AddToCart() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\DoActions\\DoAction.cs:line 83\r\n   at BooksWagon.Tests.CartPageTest() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\BooksWagonTests.cs:line 38"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "696e92a81b01441385215e5063dce5f9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633498155744,
+      "stop": 1633498184083
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633498155743,
+  "stop": 1633498184089
+}

@@ -1,0 +1,67 @@
+{
+  "uuid": "9d9d65b8-bef8-4419-a848-1d69822755b1-tr-0-1001",
+  "historyId": "BooksWagon.Tests.CartPageTest",
+  "fullName": "BooksWagon.Tests.CartPageTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TKJCNNQ"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CartPageTest"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "CartPageTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "BooksWagon.CustomException : Webdriver unable to locate element\r\n\r\n  1)   Expected string length 15 but was 0. Strings differ at index 0.\r\n  Expected: \"Add to Wishlist\"\r\n  But was:  <string.Empty>\r\n  -----------^\r\n\r\n",
+    "trace": "   at BooksWagon.DoActions.DoAction.BuyNow() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\DoActions\\DoAction.cs:line 132\r\n   at BooksWagon.Tests.CartPageTest() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\BooksWagonTests.cs:line 38"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CartPageTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "BooksWagon.CustomException : Webdriver unable to locate element\r\n\r\n  1)   Expected string length 15 but was 0. Strings differ at index 0.\r\n  Expected: \"Add to Wishlist\"\r\n  But was:  <string.Empty>\r\n  -----------^\r\n\r\n",
+        "trace": "   at BooksWagon.DoActions.DoAction.BuyNow() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\DoActions\\DoAction.cs:line 132\r\n   at BooksWagon.Tests.CartPageTest() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\BooksWagonTests.cs:line 38"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "90cb3fdfc7d64852b8dbb0f673e8c306-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633588880601,
+      "stop": 1633588925679
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633588880600,
+  "stop": 1633588925689
+}

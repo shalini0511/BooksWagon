@@ -1,0 +1,96 @@
+{
+  "uuid": "9413313d-275e-4f71-ba69-e180b6a28d34-tr-0-1002",
+  "historyId": "BooksWagon.Tests.LoginPageTest",
+  "fullName": "BooksWagon.Tests.LoginPageTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TKJCNNQ"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginPageTest"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagon.Tests"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "User"
+    },
+    {
+      "name": "suite",
+      "value": "PassedSuite"
+    },
+    {
+      "name": "subSuite",
+      "value": "NoAssert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "ISSUE-1",
+      "type": "issue"
+    },
+    {
+      "name": "TMS-12",
+      "url": "TMS-12",
+      "type": "tms"
+    }
+  ],
+  "name": "LoginPageTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "LoginPageTest"
+  },
+  "stage": "finished",
+  "description": "login\n",
+  "steps": [
+    {
+      "name": "LoginPageTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "92c1d95f34e04cdfa498883cdde3151d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633449182717,
+      "stop": 1633449212637
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633449182717,
+  "stop": 1633449212640
+}

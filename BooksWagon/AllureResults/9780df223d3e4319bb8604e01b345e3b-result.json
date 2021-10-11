@@ -1,0 +1,67 @@
+{
+  "uuid": "131f56c4-a1f2-454a-b13d-f4b7acbaae10-tr-0-1001",
+  "historyId": "BooksWagon.Tests.PlaceOrderTest",
+  "fullName": "BooksWagon.Tests.PlaceOrderTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TKJCNNQ"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "PlaceOrderTest"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "PlaceOrderTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+    "trace": "   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at System.Collections.ObjectModel.ReadOnlyCollection`1.get_Item(Int32 index)\r\n   at BooksWagon.DoActions.DoAction.PlaceOrder() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\DoActions\\DoAction.cs:line 105\r\n   at BooksWagon.Tests.PlaceOrderTest() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\BooksWagonTests.cs:line 43"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "PlaceOrderTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+        "trace": "   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at System.Collections.ObjectModel.ReadOnlyCollection`1.get_Item(Int32 index)\r\n   at BooksWagon.DoActions.DoAction.PlaceOrder() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\DoActions\\DoAction.cs:line 105\r\n   at BooksWagon.Tests.PlaceOrderTest() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\BooksWagonTests.cs:line 43"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "80898ab8384a4eea9d1b1317f01cc54d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633500529896,
+      "stop": 1633500573426
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633500529895,
+  "stop": 1633500573432
+}

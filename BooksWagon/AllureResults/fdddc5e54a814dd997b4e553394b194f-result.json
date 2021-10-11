@@ -1,0 +1,64 @@
+{
+  "uuid": "96c5c388-061e-4fb8-8f6f-53ab449e4bd6-tr-0-1001",
+  "historyId": "BooksWagon.Tests.PlaceOrderTest",
+  "fullName": "BooksWagon.Tests.PlaceOrderTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TKJCNNQ"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "PlaceOrderTest"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "PlaceOrderTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "PlaceOrderTest"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "PlaceOrderTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "998ea4fefeef428da84d232294bfca09-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633519266420,
+      "stop": 1633519317169
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633519266419,
+  "stop": 1633519317174
+}

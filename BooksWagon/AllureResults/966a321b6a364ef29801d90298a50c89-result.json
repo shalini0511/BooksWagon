@@ -1,0 +1,64 @@
+{
+  "uuid": "89b3f092-4ef8-4c34-acad-03cebcebb724-tr-0-1001",
+  "historyId": "BooksWagon.Tests.LogoutPageTest",
+  "fullName": "BooksWagon.Tests.LogoutPageTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TKJCNNQ"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LogoutPageTest"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "LogoutPageTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "LogoutPageTest"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "LogoutPageTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8c69b5c0debb47dea5db3e0d7bb1c532-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633591794737,
+      "stop": 1633591871621
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633591794736,
+  "stop": 1633591871630
+}

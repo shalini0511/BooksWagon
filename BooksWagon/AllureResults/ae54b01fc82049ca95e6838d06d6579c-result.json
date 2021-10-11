@@ -1,0 +1,67 @@
+{
+  "uuid": "e8927b4f-03d5-4f36-885f-df3134f88ff9-tr-0-1001",
+  "historyId": "BooksWagon.Tests.CartPageTest",
+  "fullName": "BooksWagon.Tests.CartPageTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TKJCNNQ"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CartPageTest"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "CartPageTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "BooksWagon.CustomException : Webdriver unable to locate element",
+    "trace": "   at BooksWagon.DoActions.DoAction.AddToCart() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\DoActions\\DoAction.cs:line 97\r\n   at BooksWagon.Tests.CartPageTest() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\BooksWagonTests.cs:line 38"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CartPageTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "BooksWagon.CustomException : Webdriver unable to locate element",
+        "trace": "   at BooksWagon.DoActions.DoAction.AddToCart() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\DoActions\\DoAction.cs:line 97\r\n   at BooksWagon.Tests.CartPageTest() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\BooksWagonTests.cs:line 38"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "314c707018d14568b61c6c1fdf879cf7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633497643632,
+      "stop": 1633497666164
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633497643631,
+  "stop": 1633497666168
+}

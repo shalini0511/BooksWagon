@@ -1,0 +1,67 @@
+{
+  "uuid": "ae6695ca-6e47-4461-b73d-d50eee48d093-tr-0-1001",
+  "historyId": "BooksWagon.Tests.PlaceOrderTest",
+  "fullName": "BooksWagon.Tests.PlaceOrderTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-TKJCNNQ"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksWagon.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "PlaceOrderTest"
+    },
+    {
+      "name": "package",
+      "value": "BooksWagon.Tests"
+    }
+  ],
+  "links": [],
+  "name": "PlaceOrderTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "BooksWagon.CustomException : Webdriver unable to locate element\r\n\r\n  1)   Expected string length 80 but was 55. Strings differ at index 11.\r\n  Expected: \"Online BookStore India, Buy Books Online, Buy Book Online Ind...\"\r\n  But was:  \"Online Bookstore | Buy Books Online | Read Books Online\"\r\n  ----------------------^\r\n\r\n",
+    "trace": "   at BooksWagon.DoActions.DoAction.PlaceOrder() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\DoActions\\DoAction.cs:line 140\r\n   at BooksWagon.Tests.PlaceOrderTest() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\BooksWagonTests.cs:line 43"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "PlaceOrderTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "BooksWagon.CustomException : Webdriver unable to locate element\r\n\r\n  1)   Expected string length 80 but was 55. Strings differ at index 11.\r\n  Expected: \"Online BookStore India, Buy Books Online, Buy Book Online Ind...\"\r\n  But was:  \"Online Bookstore | Buy Books Online | Read Books Online\"\r\n  ----------------------^\r\n\r\n",
+        "trace": "   at BooksWagon.DoActions.DoAction.PlaceOrder() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\DoActions\\DoAction.cs:line 140\r\n   at BooksWagon.Tests.PlaceOrderTest() in C:\\Users\\HP\\source\\repos\\BooksWagon\\BooksWagon\\BooksWagonTests.cs:line 43"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "99e4b1ebe0bc45069b2c01d2127cc762-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1633519062708,
+      "stop": 1633519082271
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1633519062707,
+  "stop": 1633519082276
+}

@@ -1,0 +1,5 @@
+2021-10-07 12:38:38,802 INFO Entering Setup
+2021-10-07 12:39:00,418 INFO Login Successfull
+2021-10-07 12:39:30,903 INFO Search is done
+ Meassage: My Wishlist
+ Meassage: My Shopping Cart (3 items)
